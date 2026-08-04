@@ -1,6 +1,9 @@
 import b1Img from '../assets/images/b1.jpeg';
 import b2Img from '../assets/images/b2.jpeg';
 import b3Img from '../assets/images/b3.jpeg';
+import dinnerDateImg from '../assets/images/dinner_date.png';
+import romanticMemoriesImg from '../assets/images/romantic_memories.png';
+import sweetTextsImg from '../assets/images/sweet_texts.png';
 
 export const caseData = {
   meta: {
@@ -73,6 +76,30 @@ export const caseData = {
       category: "PHYSICAL EVIDENCE",
       image: b3Img,
       caption: "Documentary Proof #003: Love to see her happy. When she sees indian Food she smile uncontrollably.",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-4",
+      title: "Exhibit B-4: Unforgettable Dinner Dates & Special Moments",
+      category: "PHYSICAL EVIDENCE",
+      image: dinnerDateImg,
+      caption: "Documentary Proof #004: Pure happiness every single time we go out together. Every date with you is my favorite memory.",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-5",
+      title: "Exhibit B-5: Cherished Memories & Endless Smiles Together",
+      category: "PHYSICAL EVIDENCE",
+      image: romanticMemoriesImg,
+      caption: "Documentary Proof #005: Proof of endless laughs, warmth, and the irreplaceable connection we share.",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-6",
+      title: "Exhibit B-6: Late Night Sweet Messages & Heartfelt Conversations",
+      category: "DOCUMENTARY EVIDENCE",
+      image: sweetTextsImg,
+      caption: "Documentary Proof #006: Words from the heart. Proof that you are in my thoughts every second of every day.",
       tag: "CERTIFIED EVIDENCE"
     }
   ],
