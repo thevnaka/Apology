@@ -8,7 +8,6 @@ import b7Img from '../assets/images/b7.jpeg';
 import b8Img from '../assets/images/b8.jpeg';
 import b9Img from '../assets/images/b9.jpeg';
 import b10Img from '../assets/images/b10.jpeg';
-import b11Img from '../assets/images/b11.jpeg';
 
 export const caseData = {
   meta: {
@@ -141,14 +140,6 @@ export const caseData = {
       category: "PHYSICAL EVIDENCE",
       image: b10Img,
       caption: "Documentary Proof #010: August 19th. We went out for the first time. VERY spontaneous. Would Cherish this day forever.",
-      tag: "CERTIFIED EVIDENCE"
-    },
-    {
-      id: "ev-11",
-      title: "Exhibit B-11: Endless Love & Future Memories",
-      category: "PHYSICAL EVIDENCE",
-      image: b11Img,
-      caption: "Documentary Proof #011: Ready for endless adventures, laughter, and loving you forever.",
       tag: "CERTIFIED EVIDENCE"
     }
   ],
