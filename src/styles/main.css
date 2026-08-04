@@ -868,12 +868,14 @@ body {
   -webkit-backdrop-filter: blur(24px);
   z-index: 10000;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 1.25rem;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 2.5rem 1.25rem 4rem;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.5s ease;
+  transition: opacity 0.4s ease, visibility 0.4s;
 }
 
 .reveal-modal-overlay.active {
@@ -885,15 +887,14 @@ body {
   background: linear-gradient(135deg, #182030, #0c101a);
   border: 2px solid var(--gold-primary);
   border-radius: var(--radius-lg);
-  max-width: 700px;
+  max-width: 720px;
   width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  padding: 2.5rem;
+  margin: auto;
+  padding: 2.5rem 2rem;
   text-align: center;
   box-shadow: var(--shadow-court), 0 0 80px rgba(245, 158, 11, 0.4);
   animation: revealPop 0.5s ease-out;
-  -webkit-overflow-scrolling: touch;
+  position: relative;
 }
 
 @keyframes revealPop {
@@ -1369,11 +1370,10 @@ body {
   .eula-overlay,
   .reveal-modal-overlay,
   .lightbox-overlay {
-    padding: 0.4rem;
+    padding: 1rem 0.5rem 2.5rem;
   }
 
-  .eula-modal,
-  .reveal-card {
+  .eula-modal {
     max-height: 95vh;
   }
 

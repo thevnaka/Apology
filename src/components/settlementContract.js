@@ -223,6 +223,7 @@ export function renderSettlementContract(containerEl) {
     triggerCelebration();
 
     setTimeout(() => {
+      document.body.style.overflow = 'hidden';
       revealModal.classList.add('active');
     }, 400);
   });
