@@ -1,9 +1,14 @@
 import b1Img from '../assets/images/b1.jpeg';
 import b2Img from '../assets/images/b2.jpeg';
 import b3Img from '../assets/images/b3.jpeg';
-import dinnerDateImg from '../assets/images/dinner_date.png';
-import romanticMemoriesImg from '../assets/images/romantic_memories.png';
-import sweetTextsImg from '../assets/images/sweet_texts.png';
+import b4Img from '../assets/images/b4.jpeg';
+import b5Img from '../assets/images/b5.jpeg';
+import b6Img from '../assets/images/b6.jpeg';
+import b7Img from '../assets/images/b7.jpeg';
+import b8Img from '../assets/images/b8.jpeg';
+import b9Img from '../assets/images/b9.jpeg';
+import b10Img from '../assets/images/b10.jpeg';
+import b11Img from '../assets/images/b11.jpeg';
 
 export const caseData = {
   meta: {
@@ -18,22 +23,25 @@ export const caseData = {
   },
 
   eula: {
-    title: "TERMS OF APOLOGY & FORMAL CONFESSION OF ERROR",
+    title: "TERMS OF APOLOGY & FORMAL CONFESSION OF MISTAKES",
     subtitle: "Binding Pre-Court Agreement & Waiver of All Excuses",
     notice: "ATTENTION PLAINTIFF: PLEASE REVIEW AND ACKNOWLEDGE ALL CLAUSES PRIOR TO COURTROOM ENTRY.",
     sections: [
       {
         heading: "ARTICLE I - ACKNOWLEDGMENT OF BREACH",
-        content: "The Defendant (Thevnaka) formally admits to a critical failure in relationship protocols and a breach of the standard of care owed to the Plaintiff (Nisindi). The Defendant explicitly acknowledges being in the wrong."
+        content: "The Defendant (Thevnaka) formally admits to a critical, entirely avoidable failure in relationship protocols and a shocking breach of the standard of care owed to the Plaintiff (Nisindi). The Defendant explicitly acknowledges being the sole architect of this disaster and throws himself entirely upon the mercy of the Court"
       },
+
       {
         heading: "ARTICLE II - USER'S RETAINED RIGHTS",
         content: "The Plaintiff (Nisindi) retains all exclusive rights to remain annoyed and scold."
       },
+
       {
         heading: "ARTICLE III - PROPOSED TERMS OF RESTITUTION",
         content: "Should the Plaintiff (Nisindi) choose to proceed, the Defendant (Thevnaka) agrees to submit to a restorative justice program. The Defendant accepts full responsibility for all the mistakes he committed."
       },
+
       {
         heading: "ARTICLE IV — DUTY OF GOOD FAITH REMEDIATION",
         content: "By scrolling to the bottom of this document and clicking 'I Accept,' the User agrees only to a temporary stay of judgment. The User grants the Defendant a brief, restricted window to present the Digital Case File and demonstrate genuine remorse."
@@ -48,11 +56,12 @@ export const caseData = {
 
 1. I am of sound mind, legal age, and unequivocally in love with the Plaintiff, Nisindi. I have personal knowledge of the matters set forth in this affidavit, mostly because I am the idiotic stupid asshole who caused them.
 
-2. I hereby confess on the record that I acted foolishly, carelessly, and too comfortable. I failed to uphold the high standard of care that our relationship demands and that Nisindi (My angel) so clearly deserves.
+2. I hereby confess on the record that I acted foolishly, carelessly, and too comfortable. I failed to uphold the high standard of care that our relationship demands and that Nisindi (My angel) clearly deserves.
 
 3. WHEREFORE, Defendant submits this formal Admission of Error, begging the Court's clemency, and praying for an opportunity to make full restitution through the proposed Settlement Agreement attached hereto.`
   },
 
+  
   evidenceLocker: [
     {
       id: "ev-1",
@@ -80,26 +89,66 @@ export const caseData = {
     },
     {
       id: "ev-4",
-      title: "Exhibit B-4: Unforgettable Dinner Dates & Special Moments",
+      title: "Exhibit B-4: My Cowgirl",
       category: "PHYSICAL EVIDENCE",
-      image: dinnerDateImg,
-      caption: "Documentary Proof #004: Pure happiness every single time we go out together. Every date with you is my favorite memory.",
+      image: b4Img,
+      caption: "Documentary Proof #004: This was our first Joe-Pete together. Got in to trouble for being with her also but totally worth it. Next Year we are gonna party together",
       tag: "CERTIFIED EVIDENCE"
     },
     {
       id: "ev-5",
-      title: "Exhibit B-5: Cherished Memories & Endless Smiles Together",
+      title: "Exhibit B-5: I love being glued to her",
       category: "PHYSICAL EVIDENCE",
-      image: romanticMemoriesImg,
-      caption: "Documentary Proof #005: Proof of endless laughs, warmth, and the irreplaceable connection we share.",
+      image: b5Img,
+      caption: "Documentary Proof #005: We spent 3 consecutive days together and got a proper glimpse of what it is like to be with each other",
       tag: "CERTIFIED EVIDENCE"
     },
     {
       id: "ev-6",
-      title: "Exhibit B-6: Late Night Sweet Messages & Heartfelt Conversations",
-      category: "DOCUMENTARY EVIDENCE",
-      image: sweetTextsImg,
-      caption: "Documentary Proof #006: Words from the heart. Proof that you are in my thoughts every second of every day.",
+      title: "Exhibit B-6: Visa Office day",
+      category: "PHYSICAL EVIDENCE",
+      image: b6Img,
+      caption: "Documentary Proof #006: October 27th. Very special day for us actually speaking. We were on a video call the previous day and the following day, BOOM",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-7",
+      title: "Exhibit B-7: DIMO Head office day",
+      category: "PHYSICAL EVIDENCE",
+      image: b7Img,
+      caption: "Documentary Proof #007: I love spending time with her so much that I went to the extent of going with her to DIMO Head office and on my way gave my angel a lovely leg massage",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-8",
+      title: "Exhibit B-8: Christmas Dayy",
+      category: "PHYSICAL EVIDENCE",
+      image: b8Img,
+      caption: "Documentary Proof #008: It was Christmas day and she was in Nuwara Eliya. We watched a movie together online and even though it was simple it was so nice to spend time with your favourite person on Christmas Day. Admired her sleeping also",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-9",
+      title: "Exhibit B-9: A Very Special Day Indeed",
+      category: "PHYSICAL EVIDENCE",
+      image: b9Img,
+      caption: "Documentary Proof #009: We went to for a first concert which was DLB. Didnt understand a single song but it was the best day ever. More details about this day in my Journal",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-10",
+      title: "Exhibit B-10: The start",
+      category: "PHYSICAL EVIDENCE",
+      image: b10Img,
+      caption: "Documentary Proof #010: August 19th. We went out for the first time. VERY spontaneous. Would Cherish this day forever.",
+      tag: "CERTIFIED EVIDENCE"
+    },
+    {
+      id: "ev-11",
+      title: "Exhibit B-11: Endless Love & Future Memories",
+      category: "PHYSICAL EVIDENCE",
+      image: b11Img,
+      caption: "Documentary Proof #011: Ready for endless adventures, laughter, and loving you forever.",
       tag: "CERTIFIED EVIDENCE"
     }
   ],
@@ -158,7 +207,7 @@ export const caseData = {
       You are the best thing that has ever happened to me and I don't want to lose you. I wanna make up for every mistake I have done. I care about you so much. I have never care about anyone like I care about you. You matter to me. You keep me going. You motivate me. You are everything to me
       I promise you with all I have that I will never ever do what I've done. I know my mistakes, I know how you felt, I know where I went wrong. I am sorry. I'll be consistent. I'll be a good stupid asshole who is gonna keep you happy and make you feel special everyday.
       I need you in my life. I will fix my mistakes. The realization hit me hard baby and I know I'll never be the Thevnaka who I was before. I want us to be better, I want us to grow together, explore the future together, have fun together learn new things together
-      Please let's do this properly together forever angel. I would never do anything stupid again. I love you and I mean it. I hope this entire virtual Case brought a smile to your face. I mean every single word I've typed. I can't do this without you. I don't want to love anyone else. I want to love you.`,
+      Please let's do this properly together forever angel. I would never do anything stupid again. I love you and I mean it. I hope this entire virtual Case brought a smile to your face. I mean every single word I've typed. I can't do this without you. I don't want to love anyone else. I want to love you`,
       valediction: "Forever Yours,",
       signature: "Thevnaka",
       whatsappNote: "Click below to let Thevnaka know you've accepted his apology! ❤️"
